@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks</title>
+</head>
+
+<body>
+
+<h2>Student Marks Table</h2>
+
+<table border="1" cellpadding="10" cellspacing="5">
+
+    <tr>
+        <th>Name</th>
+        <th>Roll No.</th>
+        <th>Physics</th>
+        <th>Chemistry</th>
+        <th>Maths</th>
+        <th>Total</th>
+        <th>Percentage</th>
+    </tr>
+
+    <tr>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+
+        <td><input type="number" id="phy" oninput="calculate()"></td>
+
+        <td><input type="number" id="chem" oninput="calculate()"></td>
+
+        <td><input type="number" id="maths" oninput="calculate()"></td>
+
+        <td><span id="total">0</span></td>
+
+        <td><span id="percentage">0%</span></td>
+    </tr>
+
+</table>
+
+<script>
+
+function calculate() {
+
+    var phy = Number(document.getElementById("phy").value);
+    var chem = Number(document.getElementById("chem").value);
+    var maths = Number(document.getElementById("maths").value);
+
+    var total = phy + chem + maths;
+
+    var percentage = (total / 300) * 100;
+
+    document.getElementById("total").innerHTML = total;
+    document.getElementById("percentage").innerHTML = percentage + "%";
+}
+
+</script>
+
+</body>
+</html>
