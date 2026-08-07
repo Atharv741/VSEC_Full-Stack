@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Login Page</title>
+</head>
+<body>
+
+    <h2>Candidate Login</h2>
+
+    <label>Candidate Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label>Email ID:</label>
+    <input type="email" id="email"><br><br>
+
+    <label>Password:</label>
+    <input type="password" id="password"><br><br>
+
+    <button onclick="login()">Login</button>
+
+    <h3 id="message"></h3>
+
+    <script>
+        function login() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+
+            document.getElementById("message").innerHTML =
+                "Candidate Logged In<br><br>" +
+                "Name: " + name + "<br>" +
+                "Email: " + email;
+        }
+    </script>
+
+</body>
+</html>
