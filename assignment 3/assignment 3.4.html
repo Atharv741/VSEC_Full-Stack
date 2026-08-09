@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks Table</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px;
+        }
+
+        button {
+            padding: 8px 15px;
+            background-color: green;
+            color: white;
+            border: none;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Student Marks Table</h2>
+
+    <input type="number" id="roll" placeholder="Roll No">
+    <input type="text" id="name" placeholder="Name">
+    <input type="number" id="phy" placeholder="Physics Marks">
+    <input type="number" id="chem" placeholder="Chemistry Marks">
+    <input type="number" id="maths" placeholder="Maths Marks">
+
+    <button onclick="addStudent()">Add Student</button>
+
+    <table>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Physics</th>
+            <th>Chemistry</th>
+            <th>Maths</th>
+            <th>Percentage</th>
+        </tr>
+
+        <tbody id="studentTable">
+        </tbody>
+    </table>
+
+    <script>
+
+        function addStudent() {
+
+            // Get values from input boxes
+            let roll = document.getElementById("roll").value;
+            let name = document.getElementById("name").value;
+            let phy = Number(document.getElementById("phy").value);
+            let chem = Number(document.getElementById("chem").value);
+            let maths = Number(document.getElementById("maths").value);
+
+            // Calculate percentage
+            let percentage = (phy + chem + maths) / 3;
+
+            // Create new row
+            let table = document.getElementById("studentTable");
+
+            let row = table.insertRow();
+
+            row.insertCell(0).innerHTML = roll;
+            row.insertCell(1).innerHTML = name;
+            row.insertCell(2).innerHTML = phy;
+            row.insertCell(3).innerHTML = chem;
+            row.insertCell(4).innerHTML = maths;
+            row.insertCell(5).innerHTML = percentage.toFixed(2) + "%";
+
+            // Clear input boxes
+            document.getElementById("roll").value = "";
+            document.getElementById("name").value = "";
+            document.getElementById("phy").value = "";
+            document.getElementById("chem").value = "";
+            document.getElementById("maths").value = "";
+        }
+
+    </script>
+
+</body>
+</html>

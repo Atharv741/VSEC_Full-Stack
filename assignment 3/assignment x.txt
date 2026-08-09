@@ -1,0 +1,73 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Light Simulator</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+        }
+
+        .traffic-light {
+            width: 100px;
+            background: black;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 20px;
+        }
+
+        .light {
+            width: 70px;
+            height: 70px;
+            background: gray;
+            border-radius: 50%;
+            margin: 10px auto;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🚦 Traffic Light Simulator</h1>
+
+    <div class="traffic-light">
+        <div id="red" class="light"></div>
+        <div id="yellow" class="light"></div>
+        <div id="green" class="light"></div>
+    </div>
+
+    <button onclick="redLight()">RED</button>
+    <button onclick="yellowLight()">YELLOW</button>
+    <button onclick="greenLight()">GREEN</button>
+
+    <script>
+        function redLight() {
+            document.getElementById("red").style.background = "red";
+            document.getElementById("yellow").style.background = "gray";
+            document.getElementById("green").style.background = "gray";
+        }
+
+        function yellowLight() {
+            document.getElementById("red").style.background = "gray";
+            document.getElementById("yellow").style.background = "yellow";
+            document.getElementById("green").style.background = "gray";
+        }
+
+        function greenLight() {
+            document.getElementById("red").style.background = "gray";
+            document.getElementById("yellow").style.background = "gray";
+            document.getElementById("green").style.background = "green";
+        }
+    </script>
+
+</body>
+</html>
+```
