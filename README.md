@@ -1,180 +1,117 @@
-# \# VSEC Full Stack Assignment
+VSEC Full Stack Assignment
 
-# 
+Student Details
 
-# \## Student Details
+Name Atharv Sandip Pawar
 
-# 
+Roll No 122
 
-# \*\*Name:\*\* Atharv Sandip Pawar
+About the Assignment
 
-# \*\*Roll No:\*\* 122
+This assignment contains four different activities related to web development and Git. The projects helped me understand the basics of HTML, CSS, JavaScript, and Git commands.
 
-# 
+1 Login Page
 
-# \## About the Assignment
+A simple login page was created using HTML CSS and JavaScript.
 
-# 
+Features
 
-# This assignment contains four different activities related to web development and Git. The projects helped me understand the basics of HTML, CSS, JavaScript, and Git commands.
+Username and password input fields
 
-# 
+Login button
 
-# \## 1. Login Page
+Basic CSS styling
 
-# 
+JavaScript used for interaction and validation
 
-# A simple login page was created using HTML, CSS, and JavaScript.
+2 Git Commands
 
-# 
+Basic Git commands were studied and practiced for managing and tracking project files.
 
-# \*\*Features:\*\*
+Commands Covered
 
-# 
+git init Initializes a Git repository
 
-# \* Username and password input fields
+git add Adds files to the staging area
 
-# \* Login button
+git commit Saves changes to the repository
 
-# \* Basic CSS styling
+git status Shows the current status of files
 
-# \* JavaScript used for interaction and validation
+git log Displays the commit history
 
-# 
+git push Uploads changes to a remote repository
 
-# \## 2. Git Commands
+git pull Downloads the latest changes from a remote repository
 
-# 
+3 Student Marks and Percentage Table
 
-# Basic Git commands were studied and practiced for managing and tracking project files.
+A student marks table was created using HTML CSS and JavaScript.
 
-# 
+Features
 
-# \*\*Commands Covered:\*\*
+Roll number and student name
 
-# 
+Physics marks
 
-# \* `git init` – Initializes a Git repository
+Chemistry marks
 
-# \* `git add` – Adds files to the staging area
+Mathematics marks
 
-# \* `git commit` – Saves changes to the repository
+Automatic percentage calculation
 
-# \* `git status` – Shows the current status of files
+Display of student records in a table
 
-# \* `git log` – Displays the commit history
+4 Traffic Light Simulator
 
-# \* `git push` – Uploads changes to a remote repository
+A simple interactive traffic light simulator was created using HTML CSS and JavaScript.
 
-# \* `git pull` – Downloads the latest changes from a remote repository
+Features
 
-# 
+Red yellow and green traffic lights
 
-# \## 3. Student Marks and Percentage Table
+Buttons to control the lights
 
-# 
+JavaScript used to change the active light
 
-# A student marks table was created using HTML, CSS, and JavaScript.
+Only the selected traffic light remains active
 
-# 
+Technologies Used
 
-# \*\*Features:\*\*
+HTML Used to create the structure of webpages
 
-# 
+CSS Used to design and style the webpages
 
-# \* Roll number and student name
+JavaScript Used to add functionality and interaction
 
-# \* Physics marks
+Git Used for version control and managing project files
 
-# \* Chemistry marks
+Learning Objectives
 
-# \* Mathematics marks
+Through this assignment I learned
 
-# \* Automatic percentage calculation
+Creating webpages using HTML
 
-# \* Display of student records in a table
+Styling webpages using CSS
 
-# 
+Using JavaScript for interactive features
 
-# \## 4. Traffic Light Simulator
+Creating forms and tables
 
-# 
+Handling button events
 
-# A simple interactive traffic light simulator was created using HTML, CSS, and JavaScript.
+Performing basic DOM manipulation
 
-# 
+Calculating student percentages using JavaScript
 
-# \*\*Features:\*\*
+Understanding basic Git commands
 
-# 
+Managing project files using Git
 
-# \* Red, yellow, and green traffic lights
+Conclusion
 
-# \* Buttons to control the lights
+This assignment provided practical experience in basic web development and version control. By creating a login page student marks table and traffic light simulator I learned how HTML CSS and JavaScript work together to create interactive webpages. The Git commands also helped me understand the basics of version control and project management.
 
-# \* JavaScript used to change the active light
+Name Atharv Sandip Pawar
 
-# \* Only the selected traffic light remains active
-
-# 
-
-# \## Technologies Used
-
-# 
-
-# \* \*\*HTML\*\* – Used to create the structure of webpages.
-
-# \* \*\*CSS\*\* – Used to design and style the webpages.
-
-# \* \*\*JavaScript\*\* – Used to add functionality and interaction.
-
-# \* \*\*Git\*\* – Used for version control and managing project files.
-
-# 
-
-# \## Learning Objectives
-
-# 
-
-# Through this assignment, I learned:
-
-# 
-
-# \* Creating webpages using HTML
-
-# \* Styling webpages using CSS
-
-# \* Using JavaScript for interactive features
-
-# \* Creating forms and tables
-
-# \* Handling button events
-
-# \* Performing basic DOM manipulation
-
-# \* Calculating student percentages using JavaScript
-
-# \* Understanding basic Git commands
-
-# \* Managing project files using Git
-
-# 
-
-# \## Conclusion
-
-# 
-
-# This assignment provided practical experience in basic web development and version control. By creating a login page, student marks table, and traffic light simulator, I learned how HTML, CSS, and JavaScript work together to create interactive webpages. The Git commands also helped me understand the basics of version control and project management.
-
-# 
-
-# \---
-
-# 
-
-# \*\*Name:\*\* Atharv Sandip Pawar
-
-# \*\*Roll No:\*\* 122
-
-
-
+Roll No 122
