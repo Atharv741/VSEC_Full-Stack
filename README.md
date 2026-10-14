@@ -2,13 +2,13 @@ VSEC Full Stack Assignment
 
 Student Details
 
-Name Atharv Sandip Pawar
-
-Roll No 122
+Name : Atharv Sandip Pawar
+TY Btech IT B 
+Roll No : 122
 
 About the Assignment
 
-This assignment contains four different activities related to web development and Git. The projects helped me understand the basics of HTML, CSS, JavaScript, and Git commands.
+This assignment contains four different activities related to web development and Git. The projects helped me understand the basics of HTML, CSS, JavaScript, Git commands ,APIs , mongoDB,react.js,express.js,miniproject
 
 1 Login Page
 
