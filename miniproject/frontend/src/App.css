@@ -1,0 +1,150 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaf2f8;
+}
+
+.app {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    background-color: #2874a6;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px auto 20px;
+}
+
+.container {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #cbd8e3;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #154360;
+    margin-top: 25px;
+}
+
+.form {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #b8c9d9;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form input {
+    width: 33.33%;
+    min-width: 0;
+}
+
+input:focus {
+    outline: 2px solid #85c1e9;
+}
+
+button {
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.add-btn {
+    background-color: #2874a6;
+}
+
+.add-btn:hover {
+    background-color: #154360;
+}
+
+.search {
+    width: 80%;
+    margin: 10px 0 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #426f98;
+    color: white;
+}
+
+th, td {
+    padding: 14px;
+    border: 1px solid #d5dfe8;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f3f5;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+}
+
+.delete-btn:hover {
+    background-color: #b52b1e;
+}
+
+.total {
+    color: #154360;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+    .app {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px 4px;
+        font-size: 13px;
+    }
+
+    button {
+        padding: 9px;
+    }
+}
